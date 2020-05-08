@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/light_blue"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding_8dp">
+
+        <TextView
+            android:id="@+id/txt_currency_symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JPY"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/layout_padding_4dp" />
+
+        <TextView
+            android:id="@+id/txt_currency_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.34567893"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/text_size_default"
+            android:layout_below="@+id/txt_currency_symbol"
+            android:padding="@dimen/layout_padding_4dp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_flat_chart"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

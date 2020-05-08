@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Currency App</string>
+    <string name="currency">Currency :</string>
+    <string name="base_currency">USD ></string>
+    <string name="base_currency_1">1 USD  >></string>
+    <string name="currency_separator">>></string>
+    <string name="last_historical_rate">Taux historiques des deux derniers mois</string>
+</resources>
